@@ -48,18 +48,33 @@ header .icons a{
     align-items: center;
 }
 
+/*
 body{
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
+} 
+*/
+
+.image{
+    display: flex;
+    padding: 170px 120px 0;
+    width: 20%;
+    float: left;
+}
+.image img{
+    border: 4px solid pink;
 }
 
+
 .content {
-    padding-top: 255px;
-    padding-left: 600px;
-    max-width: 80rem;
-    vertical-align: center;
+    float: right;
+    width: 80%;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 60px;
+    max-width: 70rem;
 }
 .content h1{
     font-size: 50px;
@@ -119,6 +134,8 @@ footer .socials a{
     color: #000000;
     margin: 0 10px 10px 0;
 }
+
+
 
 
 /* code for other pages
